@@ -15,13 +15,16 @@
 		3116DC1D18CB304B00F7DF3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC1C18CB304B00F7DF3A /* AppDelegate.m */; };
 		3116DC2018CB304B00F7DF3A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3116DC1E18CB304B00F7DF3A /* Main_iPhone.storyboard */; };
 		3116DC2318CB304B00F7DF3A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3116DC2118CB304B00F7DF3A /* Main_iPad.storyboard */; };
-		3116DC2618CB304B00F7DF3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC2518CB304B00F7DF3A /* ViewController.m */; };
 		3116DC2818CB304B00F7DF3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3116DC2718CB304B00F7DF3A /* Images.xcassets */; };
 		3116DC2F18CB304B00F7DF3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3116DC2E18CB304B00F7DF3A /* XCTest.framework */; };
 		3116DC3018CB304B00F7DF3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3116DC0C18CB304B00F7DF3A /* Foundation.framework */; };
 		3116DC3118CB304B00F7DF3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3116DC1018CB304B00F7DF3A /* UIKit.framework */; };
 		3116DC3918CB304B00F7DF3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3116DC3718CB304B00F7DF3A /* InfoPlist.strings */; };
 		3116DC3B18CB304B00F7DF3A /* dineStopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC3A18CB304B00F7DF3A /* dineStopTests.m */; };
+		3116DC4918CB361C00F7DF3A /* DinesAroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC4818CB361C00F7DF3A /* DinesAroundViewController.m */; };
+		3116DC4C18CB462400F7DF3A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC4B18CB462400F7DF3A /* TableViewController.m */; };
+		3116DC5018CB583200F7DF3A /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC4F18CB583200F7DF3A /* CustomTableViewCell.m */; };
+		3116DC5518CC91CB00F7DF3A /* DinesAroundViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC5418CC91CB00F7DF3A /* DinesAroundViewController_iPad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +50,21 @@
 		3116DC1C18CB304B00F7DF3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3116DC1F18CB304B00F7DF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		3116DC2218CB304B00F7DF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		3116DC2418CB304B00F7DF3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3116DC2518CB304B00F7DF3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3116DC2718CB304B00F7DF3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3116DC2D18CB304B00F7DF3A /* dineStopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dineStopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3116DC2E18CB304B00F7DF3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3116DC3618CB304B00F7DF3A /* dineStopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dineStopTests-Info.plist"; sourceTree = "<group>"; };
 		3116DC3818CB304B00F7DF3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3116DC3A18CB304B00F7DF3A /* dineStopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dineStopTests.m; sourceTree = "<group>"; };
+		3116DC4718CB361C00F7DF3A /* DinesAroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinesAroundViewController.h; sourceTree = "<group>"; };
+		3116DC4818CB361C00F7DF3A /* DinesAroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinesAroundViewController.m; sourceTree = "<group>"; };
+		3116DC4A18CB462400F7DF3A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3116DC4B18CB462400F7DF3A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3116DC4D18CB46CD00F7DF3A /* ConstansAndURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstansAndURL.h; sourceTree = "<group>"; };
+		3116DC4E18CB583200F7DF3A /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		3116DC4F18CB583200F7DF3A /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		3116DC5318CC91CB00F7DF3A /* DinesAroundViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinesAroundViewController_iPad.h; sourceTree = "<group>"; };
+		3116DC5418CC91CB00F7DF3A /* DinesAroundViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinesAroundViewController_iPad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +124,12 @@
 		3116DC1218CB304B00F7DF3A /* dineStop */ = {
 			isa = PBXGroup;
 			children = (
+				3116DC4D18CB46CD00F7DF3A /* ConstansAndURL.h */,
 				3116DC1B18CB304B00F7DF3A /* AppDelegate.h */,
 				3116DC1C18CB304B00F7DF3A /* AppDelegate.m */,
 				3116DC1E18CB304B00F7DF3A /* Main_iPhone.storyboard */,
 				3116DC2118CB304B00F7DF3A /* Main_iPad.storyboard */,
-				3116DC2418CB304B00F7DF3A /* ViewController.h */,
-				3116DC2518CB304B00F7DF3A /* ViewController.m */,
+				3116DC4418CB361C00F7DF3A /* Classes */,
 				3116DC2718CB304B00F7DF3A /* Images.xcassets */,
 				3116DC1318CB304B00F7DF3A /* Supporting Files */,
 			);
@@ -153,6 +163,37 @@
 				3116DC3718CB304B00F7DF3A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3116DC4418CB361C00F7DF3A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3116DC4518CB361C00F7DF3A /* iPad */,
+				3116DC4618CB361C00F7DF3A /* iPhone */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3116DC4518CB361C00F7DF3A /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3116DC5318CC91CB00F7DF3A /* DinesAroundViewController_iPad.h */,
+				3116DC5418CC91CB00F7DF3A /* DinesAroundViewController_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		3116DC4618CB361C00F7DF3A /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3116DC4718CB361C00F7DF3A /* DinesAroundViewController.h */,
+				3116DC4818CB361C00F7DF3A /* DinesAroundViewController.m */,
+				3116DC4A18CB462400F7DF3A /* TableViewController.h */,
+				3116DC4B18CB462400F7DF3A /* TableViewController.m */,
+				3116DC4E18CB583200F7DF3A /* CustomTableViewCell.h */,
+				3116DC4F18CB583200F7DF3A /* CustomTableViewCell.m */,
+			);
+			path = iPhone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3116DC2618CB304B00F7DF3A /* ViewController.m in Sources */,
+				3116DC4918CB361C00F7DF3A /* DinesAroundViewController.m in Sources */,
 				3116DC1D18CB304B00F7DF3A /* AppDelegate.m in Sources */,
 				3116DC1918CB304B00F7DF3A /* main.m in Sources */,
+				3116DC5018CB583200F7DF3A /* CustomTableViewCell.m in Sources */,
+				3116DC5518CC91CB00F7DF3A /* DinesAroundViewController_iPad.m in Sources */,
+				3116DC4C18CB462400F7DF3A /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
