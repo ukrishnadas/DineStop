@@ -518,6 +518,7 @@
 				3116DC4018CB304B00F7DF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3116DC4118CB304B00F7DF3A /* Build configuration list for PBXNativeTarget "dineStopTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				3116DC4318CB304B00F7DF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
