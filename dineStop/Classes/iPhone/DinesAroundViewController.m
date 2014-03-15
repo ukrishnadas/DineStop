@@ -18,8 +18,9 @@
 {
     [super viewDidLoad];
     
-    NSString *prepareURL = [NSString stringWithFormat:@"%@?ll=%@,%@&client_id=%@&client_secret=%@",kFSVenuesURL, @"13.0861", @"80.2791",kFSClientID, kFSClientSecret];
-    NSLog(@"%@",prepareURL);
+    _wsHandler = [[WebServiceHandler alloc] initWithServiceName:kWebServiceFSVenuesAction withDelegateClass:self andInput:nil];
+    [[CustomActivityIndicatorView sharedManager] showActivityIndicator:self.view];
+    [_wsHandler callTheWebService];
     
     UISwipeGestureRecognizer *rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(leftOrRightSwipeAction:)];
     [rightSwipe setDelegate:self];
@@ -93,4 +94,14 @@
 - (IBAction)performLeftViewAction:(id)sender {
     [self bringTheLeftOptionsView:!_leftViewAnimated];
 }
+
+
+#pragma mark Webservice Delegate
+- (void)webServiceHandlerDidFinishLoading:(NSDictionary *)responseDictionary andAction:(kWebServiceAction)action{
+        [[CustomActivityIndicatorView sharedManager] hideActivityIndicator];
+}
+- (void)webServiceHandlerDidFail:(NSError *)error andAction:(kWebServiceAction)action{
+        [[CustomActivityIndicatorView sharedManager] hideActivityIndicator];    
+}
+
 @end

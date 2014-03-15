@@ -25,6 +25,8 @@
 		3116DC4C18CB462400F7DF3A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC4B18CB462400F7DF3A /* TableViewController.m */; };
 		3116DC5018CB583200F7DF3A /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC4F18CB583200F7DF3A /* CustomTableViewCell.m */; };
 		3116DC5518CC91CB00F7DF3A /* DinesAroundViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116DC5418CC91CB00F7DF3A /* DinesAroundViewController_iPad.m */; };
+		31FC493118D441FD005436FA /* WebServiceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FC493018D441FD005436FA /* WebServiceHandler.m */; };
+		31FC493418D44A53005436FA /* CustomActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FC493318D44A53005436FA /* CustomActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		3116DC4F18CB583200F7DF3A /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		3116DC5318CC91CB00F7DF3A /* DinesAroundViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinesAroundViewController_iPad.h; sourceTree = "<group>"; };
 		3116DC5418CC91CB00F7DF3A /* DinesAroundViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinesAroundViewController_iPad.m; sourceTree = "<group>"; };
+		31FC492F18D441FD005436FA /* WebServiceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceHandler.h; sourceTree = "<group>"; };
+		31FC493018D441FD005436FA /* WebServiceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceHandler.m; sourceTree = "<group>"; };
+		31FC493218D44A53005436FA /* CustomActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActivityIndicatorView.h; sourceTree = "<group>"; };
+		31FC493318D44A53005436FA /* CustomActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActivityIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +174,7 @@
 		3116DC4418CB361C00F7DF3A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				31FC492E18D441DA005436FA /* Common */,
 				3116DC4518CB361C00F7DF3A /* iPad */,
 				3116DC4618CB361C00F7DF3A /* iPhone */,
 			);
@@ -194,6 +201,17 @@
 				3116DC4F18CB583200F7DF3A /* CustomTableViewCell.m */,
 			);
 			path = iPhone;
+			sourceTree = "<group>";
+		};
+		31FC492E18D441DA005436FA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				31FC492F18D441FD005436FA /* WebServiceHandler.h */,
+				31FC493018D441FD005436FA /* WebServiceHandler.m */,
+				31FC493218D44A53005436FA /* CustomActivityIndicatorView.h */,
+				31FC493318D44A53005436FA /* CustomActivityIndicatorView.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,8 +316,10 @@
 				3116DC1D18CB304B00F7DF3A /* AppDelegate.m in Sources */,
 				3116DC1918CB304B00F7DF3A /* main.m in Sources */,
 				3116DC5018CB583200F7DF3A /* CustomTableViewCell.m in Sources */,
+				31FC493118D441FD005436FA /* WebServiceHandler.m in Sources */,
 				3116DC5518CC91CB00F7DF3A /* DinesAroundViewController_iPad.m in Sources */,
 				3116DC4C18CB462400F7DF3A /* TableViewController.m in Sources */,
+				31FC493418D44A53005436FA /* CustomActivityIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

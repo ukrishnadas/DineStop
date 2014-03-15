@@ -22,4 +22,9 @@ typedef enum {
     kTableViewForFavouriteHits
 } kTableViewType;
 
+typedef enum{
+    kWebServiceFSVenuesAction = 100,
+    kWebServiceFSCategoriesAction
+}kWebServiceAction;
+
 #endif
