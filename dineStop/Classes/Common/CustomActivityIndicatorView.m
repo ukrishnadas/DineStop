@@ -28,6 +28,8 @@
         _activityIndicator = [[UIActivityIndicatorView alloc] init];
         _activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
         [_activityIndicator setFrame:CGRectMake((frame.size.width/2)-(_activityIndicator.frame.size.width/2), (frame.size.height/2)-(_activityIndicator.frame.size.height/2), _activityIndicator.frame.size.width, _activityIndicator.frame.size.height)];
+        [self setBackgroundColor:[UIColor whiteColor]];
+        [self setAlpha:0.5];
         [self addSubview:_activityIndicator];
     }
     return self;
